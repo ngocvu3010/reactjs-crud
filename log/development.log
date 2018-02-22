@@ -1,0 +1,455 @@
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/likewise-open/FRAMGIA/vu.thi.ngoc/Projects/react-rails-tutorial/config/initializers/callback_terminator.rb:1)
+DEPRECATION WARNING: You didn't set `secret_key_base`. Read the upgrade documentation to learn more about this new config option. (called from env_config at /home/likewise-open/FRAMGIA/vu.thi.ngoc/.rvm/gems/ruby-2.3.1/gems/railties-5.1.0/lib/rails/application.rb:247)
+DEPRECATION WARNING: You didn't set `secret_key_base`. Read the upgrade documentation to learn more about this new config option. (called from env_config at /home/likewise-open/FRAMGIA/vu.thi.ngoc/.rvm/gems/ruby-2.3.1/gems/railties-5.1.0/lib/rails/application.rb:247)
+DEPRECATION WARNING: You didn't set `secret_key_base`. Read the upgrade documentation to learn more about this new config option. (called from env_config at /home/likewise-open/FRAMGIA/vu.thi.ngoc/.rvm/gems/ruby-2.3.1/gems/railties-5.1.0/lib/rails/application.rb:247)
+DEPRECATION WARNING: You didn't set `secret_key_base`. Read the upgrade documentation to learn more about this new config option. (called from env_config at /home/likewise-open/FRAMGIA/vu.thi.ngoc/.rvm/gems/ruby-2.3.1/gems/railties-5.1.0/lib/rails/application.rb:247)
+DEPRECATION WARNING: You didn't set `secret_key_base`. Read the upgrade documentation to learn more about this new config option. (called from env_config at /home/likewise-open/FRAMGIA/vu.thi.ngoc/.rvm/gems/ruby-2.3.1/gems/railties-5.1.0/lib/rails/application.rb:247)
+DEPRECATION WARNING: You didn't set `secret_key_base`. Read the upgrade documentation to learn more about this new config option. (called from env_config at /home/likewise-open/FRAMGIA/vu.thi.ngoc/.rvm/gems/ruby-2.3.1/gems/railties-5.1.0/lib/rails/application.rb:247)
+DEPRECATION WARNING: You didn't set `secret_key_base`. Read the upgrade documentation to learn more about this new config option. (called from env_config at /home/likewise-open/FRAMGIA/vu.thi.ngoc/.rvm/gems/ruby-2.3.1/gems/railties-5.1.0/lib/rails/application.rb:247)
+DEPRECATION WARNING: You didn't set `secret_key_base`. Read the upgrade documentation to learn more about this new config option. (called from env_config at /home/likewise-open/FRAMGIA/vu.thi.ngoc/.rvm/gems/ruby-2.3.1/gems/railties-5.1.0/lib/rails/application.rb:247)
+DEPRECATION WARNING: You didn't set `secret_key_base`. Read the upgrade documentation to learn more about this new config option. (called from env_config at /home/likewise-open/FRAMGIA/vu.thi.ngoc/.rvm/gems/ruby-2.3.1/gems/railties-5.1.0/lib/rails/application.rb:247)
+DEPRECATION WARNING: You didn't set `secret_key_base`. Read the upgrade documentation to learn more about this new config option. (called from env_config at /home/likewise-open/FRAMGIA/vu.thi.ngoc/.rvm/gems/ruby-2.3.1/gems/railties-5.1.0/lib/rails/application.rb:247)
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/likewise-open/FRAMGIA/vu.thi.ngoc/Projects/react-rails-tutorial/config/initializers/callback_terminator.rb:1)
+Started GET "/" for 127.0.0.1 at 2018-02-22 08:36:59 +0700
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.1.0) lib/active_record/migration.rb:576:in `check_pending!'
+activerecord (5.1.0) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.0) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.0) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.0) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.0) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.0) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.0) lib/rails/engine.rb:522:in `call'
+rack (2.0.3) lib/rack/handler/webrick.rb:86:in `service'
+/home/likewise-open/FRAMGIA/vu.thi.ngoc/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+/home/likewise-open/FRAMGIA/vu.thi.ngoc/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+/home/likewise-open/FRAMGIA/vu.thi.ngoc/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/likewise-open/FRAMGIA/vu.thi.ngoc/Projects/react-rails-tutorial/config/initializers/callback_terminator.rb:1)
+  [1m[35m (0.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (319.0ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY) ENGINE=InnoDB[0m
+  [1m[35m (290.9ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT DATABASE() as db[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK(3175412768759979090, 0)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateItems (20160212142642)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK(3175412768759979090)[0m
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/likewise-open/FRAMGIA/vu.thi.ngoc/Projects/react-rails-tutorial/config/initializers/callback_terminator.rb:1)
+  [1m[35m (0.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT DATABASE() as db[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK(3175412768759979090, 0)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateItems (20160212142642)
+  [1m[35m (386.8ms)[0m  [1m[35mCREATE TABLE `items` (`id` int NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` varchar(255), `description` text, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20160212142642')[0m
+  [1m[35m (138.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'development', '2018-02-22 01:38:45', '2018-02-22 01:38:45')[0m
+  [1m[35m (44.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK(3175412768759979090)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSHOW CREATE TABLE `items`[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'items'[0m
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/likewise-open/FRAMGIA/vu.thi.ngoc/Projects/react-rails-tutorial/config/initializers/callback_terminator.rb:1)
+  [1m[35m (0.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO `items` (`name`, `description`, `created_at`, `updated_at`) VALUES ('Item', 'I am a description.', '2018-02-22 01:38:55', '2018-02-22 01:38:55')[0m
+  [1m[35m (41.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO `items` (`name`, `description`, `created_at`, `updated_at`) VALUES ('Item', 'I am a description.', '2018-02-22 01:38:55', '2018-02-22 01:38:55')[0m
+  [1m[35m (98.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO `items` (`name`, `description`, `created_at`, `updated_at`) VALUES ('Item', 'I am a description.', '2018-02-22 01:38:55', '2018-02-22 01:38:55')[0m
+  [1m[35m (93.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO `items` (`name`, `description`, `created_at`, `updated_at`) VALUES ('Item', 'I am a description.', '2018-02-22 01:38:55', '2018-02-22 01:38:55')[0m
+  [1m[35m (48.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO `items` (`name`, `description`, `created_at`, `updated_at`) VALUES ('Item', 'I am a description.', '2018-02-22 01:38:55', '2018-02-22 01:38:55')[0m
+  [1m[35m (48.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO `items` (`name`, `description`, `created_at`, `updated_at`) VALUES ('Item', 'I am a description.', '2018-02-22 01:38:55', '2018-02-22 01:38:55')[0m
+  [1m[35m (48.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO `items` (`name`, `description`, `created_at`, `updated_at`) VALUES ('Item', 'I am a description.', '2018-02-22 01:38:55', '2018-02-22 01:38:55')[0m
+  [1m[35m (47.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO `items` (`name`, `description`, `created_at`, `updated_at`) VALUES ('Item', 'I am a description.', '2018-02-22 01:38:55', '2018-02-22 01:38:55')[0m
+  [1m[35m (47.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO `items` (`name`, `description`, `created_at`, `updated_at`) VALUES ('Item', 'I am a description.', '2018-02-22 01:38:55', '2018-02-22 01:38:55')[0m
+  [1m[35m (48.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO `items` (`name`, `description`, `created_at`, `updated_at`) VALUES ('Item', 'I am a description.', '2018-02-22 01:38:55', '2018-02-22 01:38:55')[0m
+  [1m[35m (47.7ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/" for 127.0.0.1 at 2018-02-22 08:39:10 +0700
+  [1m[35m (0.1ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4540ms (Views: 4539.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2018-02-22 08:39:14 +0700
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2018-02-22 08:39:14 +0700
+Started GET "/assets/components/_Item.self-45efca581d1cd52b088fb04622bf6adaed89d1e1e5cc648339ca76908a8408bf.js?body=1" for 127.0.0.1 at 2018-02-22 08:39:14 +0700
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2018-02-22 08:39:14 +0700
+Started GET "/assets/react.self-73aebe9077e6d43c26641df64fb423f78831c5ee55ce76eee06ea71522ae1da1.js?body=1" for 127.0.0.1 at 2018-02-22 08:39:15 +0700
+Started GET "/assets/react_ujs.self-d595485e19cc50994cf4906369294e1fa672bf6871fe8b9489c07bab21ec74d0.js?body=1" for 127.0.0.1 at 2018-02-22 08:39:15 +0700
+Started GET "/assets/components/_body.self-66b9b1a376c310b1ffff92a884be9a53fbb495ce0a3c9377c541353aaff9d603.js?body=1" for 127.0.0.1 at 2018-02-22 08:39:15 +0700
+Started GET "/assets/components/_all_items.self-43040cf9789c00d8a145bdb78020a58bf82fa830bc20296c204bbe924b8c7cf9.js?body=1" for 127.0.0.1 at 2018-02-22 08:39:15 +0700
+Started GET "/assets/components/_header.self-719ac29dc17200fa4cc9a818e6519698e60e1b9adcdd784312d6b7cabe16b8a1.js?body=1" for 127.0.0.1 at 2018-02-22 08:39:15 +0700
+Started GET "/assets/components/_new_item.self-090f65dc6d10634518bf17de2c6fd0637174e9911b8f8f49376aa7a7be8d00e5.js?body=1" for 127.0.0.1 at 2018-02-22 08:39:15 +0700
+Started GET "/assets/components/_main.self-b23a8f3e12604a16c80a206e6fd548d04a1b41ad390cfc11cd5232a285f0a76f.js?body=1" for 127.0.0.1 at 2018-02-22 08:39:15 +0700
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2018-02-22 08:39:15 +0700
+Started GET "/assets/application.self-7c370d9536d7d0d6a0f7cd7f9826692acd93e4fb05ba46f7b630b879740343d3.js?body=1" for 127.0.0.1 at 2018-02-22 08:39:15 +0700
+Started GET "/api/v1/items.json" for 127.0.0.1 at 2018-02-22 08:39:15 +0700
+Processing by Api::V1::ItemsController#index as JSON
+  [1m[36mItem Load (0.3ms)[0m  [1m[34mSELECT `items`.* FROM `items`[0m
+Completed 200 OK in 42ms (Views: 32.6ms | ActiveRecord: 1.8ms)
+
+
+Started DELETE "/api/v1/items/1" for 127.0.0.1 at 2018-02-22 08:39:18 +0700
+Processing by Api::V1::ItemsController#destroy as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT  `items`.* FROM `items` WHERE `items`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (21.4ms)[0m  [1m[31mDELETE FROM `items` WHERE `items`.`id` = 1[0m
+  [1m[35m (38.1ms)[0m  [1m[35mCOMMIT[0m
+Completed 204 No Content in 67ms (ActiveRecord: 59.9ms)
+
+
+Started DELETE "/api/v1/items/2" for 127.0.0.1 at 2018-02-22 08:39:19 +0700
+Processing by Api::V1::ItemsController#destroy as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mItem Load (0.4ms)[0m  [1m[34mSELECT  `items`.* FROM `items` WHERE `items`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM `items` WHERE `items`.`id` = 2[0m
+  [1m[35m (100.3ms)[0m  [1m[35mCOMMIT[0m
+Completed 204 No Content in 108ms (ActiveRecord: 100.9ms)
+
+
+Started POST "/api/v1/items" for 127.0.0.1 at 2018-02-22 08:39:20 +0700
+Processing by Api::V1::ItemsController#create as */*
+  Parameters: {"item"=>{"name"=>"", "description"=>""}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO `items` (`name`, `description`, `created_at`, `updated_at`) VALUES ('', '', '2018-02-22 01:39:20', '2018-02-22 01:39:20')[0m
+  [1m[35m (61.2ms)[0m  [1m[35mCOMMIT[0m
+Completed 201 Created in 69ms (Views: 2.2ms | ActiveRecord: 61.6ms)
+
+
+Started DELETE "/api/v1/items/3" for 127.0.0.1 at 2018-02-22 08:39:20 +0700
+Processing by Api::V1::ItemsController#destroy as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mItem Load (0.4ms)[0m  [1m[34mSELECT  `items`.* FROM `items` WHERE `items`.`id` = 3 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[31mDELETE FROM `items` WHERE `items`.`id` = 3[0m
+  [1m[35m (37.1ms)[0m  [1m[35mCOMMIT[0m
+Completed 204 No Content in 43ms (ActiveRecord: 38.0ms)
+
+
+Started DELETE "/api/v1/items/6" for 127.0.0.1 at 2018-02-22 08:39:22 +0700
+Processing by Api::V1::ItemsController#destroy as */*
+  Parameters: {"id"=>"6"}
+  [1m[36mItem Load (0.3ms)[0m  [1m[34mSELECT  `items`.* FROM `items` WHERE `items`.`id` = 6 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[31mDELETE FROM `items` WHERE `items`.`id` = 6[0m
+  [1m[35m (674.4ms)[0m  [1m[35mCOMMIT[0m
+Completed 204 No Content in 682ms (ActiveRecord: 675.1ms)
+
+
+Started DELETE "/api/v1/items/11" for 127.0.0.1 at 2018-02-22 08:39:29 +0700
+Processing by Api::V1::ItemsController#destroy as */*
+  Parameters: {"id"=>"11"}
+  [1m[36mItem Load (0.4ms)[0m  [1m[34mSELECT  `items`.* FROM `items` WHERE `items`.`id` = 11 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[31mDELETE FROM `items` WHERE `items`.`id` = 11[0m
+  [1m[35m (46.5ms)[0m  [1m[35mCOMMIT[0m
+Completed 204 No Content in 51ms (ActiveRecord: 47.2ms)
+
+
+Started DELETE "/api/v1/items/10" for 127.0.0.1 at 2018-02-22 08:39:30 +0700
+Processing by Api::V1::ItemsController#destroy as */*
+  Parameters: {"id"=>"10"}
+  [1m[36mItem Load (0.3ms)[0m  [1m[34mSELECT  `items`.* FROM `items` WHERE `items`.`id` = 10 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[31mDELETE FROM `items` WHERE `items`.`id` = 10[0m
+  [1m[35m (40.4ms)[0m  [1m[35mCOMMIT[0m
+Completed 204 No Content in 45ms (ActiveRecord: 41.1ms)
+
+
+Started DELETE "/api/v1/items/9" for 127.0.0.1 at 2018-02-22 08:39:30 +0700
+Processing by Api::V1::ItemsController#destroy as */*
+  Parameters: {"id"=>"9"}
+  [1m[36mItem Load (0.4ms)[0m  [1m[34mSELECT  `items`.* FROM `items` WHERE `items`.`id` = 9 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[31mDELETE FROM `items` WHERE `items`.`id` = 9[0m
+  [1m[35m (41.7ms)[0m  [1m[35mCOMMIT[0m
+Completed 204 No Content in 47ms (ActiveRecord: 42.6ms)
+
+
+Started DELETE "/api/v1/items/8" for 127.0.0.1 at 2018-02-22 08:39:31 +0700
+Processing by Api::V1::ItemsController#destroy as */*
+  Parameters: {"id"=>"8"}
+  [1m[36mItem Load (0.4ms)[0m  [1m[34mSELECT  `items`.* FROM `items` WHERE `items`.`id` = 8 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM `items` WHERE `items`.`id` = 8[0m
+  [1m[35m (33.0ms)[0m  [1m[35mCOMMIT[0m
+Completed 204 No Content in 38ms (ActiveRecord: 33.6ms)
+
+
+Started DELETE "/api/v1/items/7" for 127.0.0.1 at 2018-02-22 08:39:31 +0700
+Processing by Api::V1::ItemsController#destroy as */*
+  Parameters: {"id"=>"7"}
+  [1m[36mItem Load (0.6ms)[0m  [1m[34mSELECT  `items`.* FROM `items` WHERE `items`.`id` = 7 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM `items` WHERE `items`.`id` = 7[0m
+  [1m[35m (50.3ms)[0m  [1m[35mCOMMIT[0m
+Completed 204 No Content in 55ms (ActiveRecord: 51.2ms)
+
+
+Started DELETE "/api/v1/items/5" for 127.0.0.1 at 2018-02-22 08:39:32 +0700
+Processing by Api::V1::ItemsController#destroy as */*
+  Parameters: {"id"=>"5"}
+  [1m[36mItem Load (0.4ms)[0m  [1m[34mSELECT  `items`.* FROM `items` WHERE `items`.`id` = 5 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[31mDELETE FROM `items` WHERE `items`.`id` = 5[0m
+  [1m[35m (46.7ms)[0m  [1m[35mCOMMIT[0m
+Completed 204 No Content in 52ms (ActiveRecord: 47.6ms)
+
+
+Started DELETE "/api/v1/items/4" for 127.0.0.1 at 2018-02-22 08:39:33 +0700
+Processing by Api::V1::ItemsController#destroy as */*
+  Parameters: {"id"=>"4"}
+  [1m[36mItem Load (0.4ms)[0m  [1m[34mSELECT  `items`.* FROM `items` WHERE `items`.`id` = 4 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM `items` WHERE `items`.`id` = 4[0m
+  [1m[35m (39.1ms)[0m  [1m[35mCOMMIT[0m
+Completed 204 No Content in 44ms (ActiveRecord: 39.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-22 08:39:35 +0700
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/items.json" for 127.0.0.1 at 2018-02-22 08:39:35 +0700
+Processing by Api::V1::ItemsController#index as JSON
+  [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT `items`.* FROM `items`[0m
+Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/api/v1/items" for 127.0.0.1 at 2018-02-22 08:39:40 +0700
+Processing by Api::V1::ItemsController#create as */*
+  Parameters: {"item"=>{"name"=>"ngic", "description"=>"v"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO `items` (`name`, `description`, `created_at`, `updated_at`) VALUES ('ngic', 'v', '2018-02-22 01:39:40', '2018-02-22 01:39:40')[0m
+  [1m[35m (56.8ms)[0m  [1m[35mCOMMIT[0m
+Completed 201 Created in 61ms (Views: 0.5ms | ActiveRecord: 57.3ms)
+
+
+Started DELETE "/api/v1/items/12" for 127.0.0.1 at 2018-02-22 08:39:42 +0700
+Processing by Api::V1::ItemsController#destroy as */*
+  Parameters: {"id"=>"12"}
+  [1m[36mItem Load (0.4ms)[0m  [1m[34mSELECT  `items`.* FROM `items` WHERE `items`.`id` = 12 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM `items` WHERE `items`.`id` = 12[0m
+  [1m[35m (64.7ms)[0m  [1m[35mCOMMIT[0m
+Completed 204 No Content in 69ms (ActiveRecord: 65.4ms)
+
+
+Started POST "/api/v1/items" for 127.0.0.1 at 2018-02-22 08:39:49 +0700
+Processing by Api::V1::ItemsController#create as */*
+  Parameters: {"item"=>{"name"=>"vu thi ngoc", "description"=>"123"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO `items` (`name`, `description`, `created_at`, `updated_at`) VALUES ('vu thi ngoc', '123', '2018-02-22 01:39:49', '2018-02-22 01:39:49')[0m
+  [1m[35m (60.1ms)[0m  [1m[35mCOMMIT[0m
+Completed 201 Created in 65ms (Views: 0.5ms | ActiveRecord: 60.5ms)
+
+
+Started POST "/api/v1/items" for 127.0.0.1 at 2018-02-22 08:39:55 +0700
+Processing by Api::V1::ItemsController#create as */*
+  Parameters: {"item"=>{"name"=>"say helo", "description"=>"123"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO `items` (`name`, `description`, `created_at`, `updated_at`) VALUES ('say helo', '123', '2018-02-22 01:39:55', '2018-02-22 01:39:55')[0m
+  [1m[35m (56.0ms)[0m  [1m[35mCOMMIT[0m
+Completed 201 Created in 62ms (Views: 0.6ms | ActiveRecord: 56.4ms)
+
+
+Started PUT "/api/v1/items/13" for 127.0.0.1 at 2018-02-22 08:40:03 +0700
+Processing by Api::V1::ItemsController#update as */*
+  Parameters: {"item"=>{"id"=>"13", "name"=>"vu thi ngoc123", "description"=>"123"}, "id"=>"13"}
+  [1m[36mItem Load (0.3ms)[0m  [1m[34mSELECT  `items`.* FROM `items` WHERE `items`.`id` = 13 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE `items` SET `name` = 'vu thi ngoc123', `updated_at` = '2018-02-22 01:40:03' WHERE `items`.`id` = 13[0m
+  [1m[35m (47.2ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 55ms (Views: 0.3ms | ActiveRecord: 48.0ms)
+
+
+Started POST "/api/v1/items" for 127.0.0.1 at 2018-02-22 08:40:06 +0700
+Processing by Api::V1::ItemsController#create as */*
+  Parameters: {"item"=>{"name"=>"say helo", "description"=>"123"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO `items` (`name`, `description`, `created_at`, `updated_at`) VALUES ('say helo', '123', '2018-02-22 01:40:06', '2018-02-22 01:40:06')[0m
+  [1m[35m (49.6ms)[0m  [1m[35mCOMMIT[0m
+Completed 201 Created in 55ms (Views: 0.5ms | ActiveRecord: 50.0ms)
+
+
+Started DELETE "/api/v1/items/15" for 127.0.0.1 at 2018-02-22 08:40:07 +0700
+Processing by Api::V1::ItemsController#destroy as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mItem Load (0.3ms)[0m  [1m[34mSELECT  `items`.* FROM `items` WHERE `items`.`id` = 15 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[31mDELETE FROM `items` WHERE `items`.`id` = 15[0m
+  [1m[35m (68.2ms)[0m  [1m[35mCOMMIT[0m
+Completed 204 No Content in 73ms (ActiveRecord: 69.1ms)
+
+
+Started PUT "/api/v1/items/14" for 127.0.0.1 at 2018-02-22 08:40:14 +0700
+Processing by Api::V1::ItemsController#update as */*
+  Parameters: {"item"=>{"id"=>"14", "name"=>"say helo", "description"=>"123dfsdfsdfsdf"}, "id"=>"14"}
+  [1m[36mItem Load (0.4ms)[0m  [1m[34mSELECT  `items`.* FROM `items` WHERE `items`.`id` = 14 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE `items` SET `description` = '123dfsdfsdfsdf', `updated_at` = '2018-02-22 01:40:14' WHERE `items`.`id` = 14[0m
+  [1m[35m (37.1ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 43ms (Views: 0.5ms | ActiveRecord: 38.0ms)
+
+
+Started PUT "/api/v1/items/13" for 127.0.0.1 at 2018-02-22 08:40:21 +0700
+Processing by Api::V1::ItemsController#update as */*
+  Parameters: {"item"=>{"id"=>"13", "name"=>"vu thi ngoc12344444", "description"=>"123"}, "id"=>"13"}
+  [1m[36mItem Load (0.4ms)[0m  [1m[34mSELECT  `items`.* FROM `items` WHERE `items`.`id` = 13 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE `items` SET `name` = 'vu thi ngoc12344444', `updated_at` = '2018-02-22 01:40:21' WHERE `items`.`id` = 13[0m
+  [1m[35m (46.4ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 52ms (Views: 0.5ms | ActiveRecord: 47.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-22 08:40:29 +0700
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 19ms (Views: 18.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/items.json" for 127.0.0.1 at 2018-02-22 08:40:29 +0700
+Processing by Api::V1::ItemsController#index as JSON
+  [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT `items`.* FROM `items`[0m
+Completed 200 OK in 3ms (Views: 1.3ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/api/v1/items/13" for 127.0.0.1 at 2018-02-22 08:41:02 +0700
+Processing by Api::V1::ItemsController#destroy as */*
+  Parameters: {"id"=>"13"}
+  [1m[36mItem Load (0.3ms)[0m  [1m[34mSELECT  `items`.* FROM `items` WHERE `items`.`id` = 13 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM `items` WHERE `items`.`id` = 13[0m
+  [1m[35m (46.8ms)[0m  [1m[35mCOMMIT[0m
+Completed 204 No Content in 50ms (ActiveRecord: 47.4ms)
+
+
+Started DELETE "/api/v1/items/14" for 127.0.0.1 at 2018-02-22 08:41:02 +0700
+Processing by Api::V1::ItemsController#destroy as */*
+  Parameters: {"id"=>"14"}
+  [1m[36mItem Load (0.6ms)[0m  [1m[34mSELECT  `items`.* FROM `items` WHERE `items`.`id` = 14 LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[31mDELETE FROM `items` WHERE `items`.`id` = 14[0m
+  [1m[35m (224.1ms)[0m  [1m[35mCOMMIT[0m
+Completed 204 No Content in 232ms (ActiveRecord: 225.4ms)
+
+
+Started POST "/api/v1/items" for 127.0.0.1 at 2018-02-22 08:41:08 +0700
+Processing by Api::V1::ItemsController#create as */*
+  Parameters: {"item"=>{"name"=>"test", "description"=>"123"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO `items` (`name`, `description`, `created_at`, `updated_at`) VALUES ('test', '123', '2018-02-22 01:41:08', '2018-02-22 01:41:08')[0m
+  [1m[35m (35.4ms)[0m  [1m[35mCOMMIT[0m
+Completed 201 Created in 41ms (Views: 0.6ms | ActiveRecord: 35.8ms)
+
+
+Started PUT "/api/v1/items/16" for 127.0.0.1 at 2018-02-22 08:41:12 +0700
+Processing by Api::V1::ItemsController#update as */*
+  Parameters: {"item"=>{"id"=>"16", "name"=>"test", "description"=>"1234444"}, "id"=>"16"}
+  [1m[36mItem Load (0.3ms)[0m  [1m[34mSELECT  `items`.* FROM `items` WHERE `items`.`id` = 16 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE `items` SET `description` = '1234444', `updated_at` = '2018-02-22 01:41:12' WHERE `items`.`id` = 16[0m
+  [1m[35m (43.7ms)[0m  [1m[35mCOMMIT[0m
+Completed 200 OK in 49ms (Views: 0.6ms | ActiveRecord: 44.4ms)
+
+
+Started POST "/api/v1/items" for 127.0.0.1 at 2018-02-22 08:41:18 +0700
+Processing by Api::V1::ItemsController#create as */*
+  Parameters: {"item"=>{"name"=>"ngoc", "description"=>"1234"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO `items` (`name`, `description`, `created_at`, `updated_at`) VALUES ('ngoc', '1234', '2018-02-22 01:41:18', '2018-02-22 01:41:18')[0m
+  [1m[35m (105.8ms)[0m  [1m[35mCOMMIT[0m
+Completed 201 Created in 112ms (Views: 0.5ms | ActiveRecord: 106.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-22 08:45:55 +0700
+Processing by SiteController#index as HTML
+  Rendering site/index.html.erb within layouts/application
+  Rendered site/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1608ms (Views: 1607.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/v1/items.json" for 127.0.0.1 at 2018-02-22 08:45:57 +0700
+Processing by Api::V1::ItemsController#index as JSON
+  [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT `items`.* FROM `items`[0m
+Completed 200 OK in 13ms (Views: 6.9ms | ActiveRecord: 1.4ms)
+
+
+Started DELETE "/api/v1/items/16" for 127.0.0.1 at 2018-02-22 08:46:05 +0700
+Processing by Api::V1::ItemsController#destroy as */*
+  Parameters: {"id"=>"16"}
+  [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT  `items`.* FROM `items` WHERE `items`.`id` = 16 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM `items` WHERE `items`.`id` = 16[0m
+  [1m[35m (67.1ms)[0m  [1m[35mCOMMIT[0m
+Completed 204 No Content in 84ms (ActiveRecord: 67.8ms)
+
+
+Started DELETE "/api/v1/items/17" for 127.0.0.1 at 2018-02-22 08:46:06 +0700
+Processing by Api::V1::ItemsController#destroy as */*
+  Parameters: {"id"=>"17"}
+  [1m[36mItem Load (0.3ms)[0m  [1m[34mSELECT  `items`.* FROM `items` WHERE `items`.`id` = 17 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM `items` WHERE `items`.`id` = 17[0m
+  [1m[35m (139.2ms)[0m  [1m[35mCOMMIT[0m
+Completed 204 No Content in 153ms (ActiveRecord: 139.9ms)
+
+
